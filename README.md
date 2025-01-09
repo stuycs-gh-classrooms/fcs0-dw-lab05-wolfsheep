@@ -32,6 +32,8 @@ At the end of this file, you will see a large code block. It contains some instr
 ;   1 switch
 ;   2 buttons
 ;   1 plot (the plot should include a title and the legend)
+;
+; The world is 51x51, with a patch size of 10
 
 ; breeds and custom properties are already set
 ; leave this code alone
@@ -55,7 +57,7 @@ patches-own [clock]
 ;    grass patches are green
 ;    dirt patches are brown and have a clock value in the range [0, 30)
 to setup
-  
+
 end
 
 
